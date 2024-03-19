@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    
+<body>
+
+    <header class="cabecalho">
+        <img class="imagem_logo" src="img/logo_talita.jpeg" alt="logo-Talita">
+        <p class="cabecalho_texto">Codificador de Mensagens</p>   
+    </header>
+
+    <main class="container">
+        <section>
+            
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite aqui..."></textarea>
+           
+            <div class="texto-aviso">
+                <img src="" class="img-alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>           
+        </section>
+
+        <section>
+            <!--<img class="boneco_lupa" src="img/garoto.jpg">-->
+            <!--<p>Digite o texto que você deseja criptografar ou descriptografar.</p>-->
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar">Copiar</button>   
+        </section>    
+    </main>
+
+    <script src="script.js"></script><!--no final para q a página seja carragada primeira-->
+    
+</body>
+</html>
